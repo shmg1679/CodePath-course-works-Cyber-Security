@@ -2,16 +2,13 @@
 
 **Unit 7 finding Vulnerabilities**: 
 
-
-```
-name="FirstName LastName"
-univ="University of Science"
-
-screenfetch
-echo $name'@'$univ
+### XSS attack
 ```
 
-Save the file as **screenfetch.gif**.
+![unknown](https://user-images.githubusercontent.com/91004979/160264445-2bd2417c-24a2-4654-909a-c2aedeb0a949.png)
+
+```
+
 
 **Challenges and Problems**: 
 
