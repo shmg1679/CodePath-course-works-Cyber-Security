@@ -48,13 +48,19 @@ account below here, too.
 
 ## CSRF Attack
 **Showing a simple CSRF attack if a user were to goto a link**
-1. Posting a link, in this case I used github to host this.
+1. using burp to see what were the parameters I need to use to post a comment.
 
-<img src="https://user-images.githubusercontent.com/91004979/160265235-8d9db185-0080-44ec-921f-47646107e349.png" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/91004979/161451511-f97b13d7-d991-40ef-922b-88336671d2de.png" width="900" height="100">
 
-2. If the user goto the link, it'll make them post a comment
+2. writing the code:
 
-<img src="https://user-images.githubusercontent.com/91004979/160265318-3bc6541f-c019-440d-b179-8fb39895a801.png" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/91004979/161451575-051f9a68-143f-45fc-9099-ca947ca72e50.png" width="900" height="400">
+
+3. Posting it and then wait for someone to click them. Though I'm not proficient enough in JS to make this a perfect attack so I would need to
+rely on the victim's gullibleness.
+
+<img src="https://user-images.githubusercontent.com/91004979/161451666-ae1afa87-3b45-46fa-9d4a-11e5a8f9c444.gif" width="900" height="400">
+
 
 
 
