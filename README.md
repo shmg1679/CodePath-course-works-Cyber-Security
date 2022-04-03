@@ -4,13 +4,13 @@
 
 ## XSS Attack
 **This XSS attack will just display the user's cookie**:
-1. Posting the script
+1. Posting the script in the comment section. Although this isn't really malicious it still show that this vulnerability exist.
 
 <img src="https://user-images.githubusercontent.com/91004979/160264464-5bd2cd3c-67b3-4f50-a350-9e14d6beac8d.png" width="500" height="400">
 
-2. XSS attack alert display the user's cookie
+2. XSS attack alert display the user's cookie when they visit the page.
 
-<img src="https://user-images.githubusercontent.com/91004979/160264595-210da73b-bbc6-4223-beb0-54087dbb4d6f.png" width="700" height="400">
+<img src="https://user-images.githubusercontent.com/91004979/161449826-ff6a297a-62ff-4406-a006-8b6df886160f.gif" width="700" height="400">
 
 
 ## User Enumeration
@@ -27,7 +27,8 @@
 3. Set the parameter for brute forcing
 <img src="https://user-images.githubusercontent.com/91004979/160264861-6b80e353-63ab-45fe-89f3-2bcbafb70155.png" width="900" height="500">
 
-4. As you can see, i found Admin and Pest which is a user I've created for testing. These two had different length compared to others which mean it exist.
+4. As you can see, I found Admin and Pest which is a user I've created for testing. These two had different length compared to others which mean 
+allows me to know that they exist.
 
 <img src="https://user-images.githubusercontent.com/91004979/160264916-336c0097-8ba2-482e-bc53-9745656a41ec.png" width="900" height="400">
 
@@ -37,7 +38,13 @@
 
 <img src="https://user-images.githubusercontent.com/91004979/160265142-a32af7b1-41de-435a-a79c-30bf1e225375.png" width="900" height="400">
 
-As you can see, we now confirm that the username and password is both admin, it shows that user enumeration attack works.
+As you can see, we now confirm that the username and password is both admin, it shows that user enumeration attack works as well as on the pest test
+account below here, too. 
+
+<img src="https://user-images.githubusercontent.com/91004979/161450211-625e094e-1b7f-4274-8a44-d1f2795554b8.png" width="900" height="400">
+
+<img src="https://user-images.githubusercontent.com/91004979/161450188-4a205537-d3c6-49f2-8ca1-9052d94e57ee.png" width="900" height="400">
+
 
 ## CSRF Attack
 **Showing a simple CSRF attack if a user were to goto a link**
