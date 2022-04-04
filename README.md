@@ -54,12 +54,12 @@ account below here, too.
 
 2. writing the code:
 
-<img src="https://user-images.githubusercontent.com/91004979/161451575-051f9a68-143f-45fc-9099-ca947ca72e50.png" width="900" height="400">
+<img src="https://user-images.githubusercontent.com/91004979/161455676-9cef2f42-d235-49a4-90ea-65d9f236b1d7.png" width="800" height="400">
 
-3. Posting it and then wait for someone to click them. Though I'm not proficient enough in JS to make this a perfect attack so I would need to
-rely on the victim's gullibleness.
+3. Posting it and then wait for someone to click them. Though it seem like I'm not proficient enough in JS to figure out how to be able to
+bypass this pop up to make them indirectly click the continue option so I'd need to rely on their gullibleness
 
-<img src="https://user-images.githubusercontent.com/91004979/161451666-ae1afa87-3b45-46fa-9d4a-11e5a8f9c444.gif" width="900" height="400">
+<img src="https://user-images.githubusercontent.com/91004979/161455335-aabec88c-b3e4-49f5-8cd7-5a2087226f60.gif" width="900" height="400">
 
 
 
