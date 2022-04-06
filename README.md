@@ -1,6 +1,6 @@
 # WordPress
 
-**Unit 7 finding Vulnerabilities**: 
+**Unit 7 & 8 finding Vulnerabilities**: 
 
 ## XSS Attack
 **This XSS attack will just display the user's cookie**:
@@ -12,7 +12,7 @@
 
 <img src="https://user-images.githubusercontent.com/91004979/161449826-ff6a297a-62ff-4406-a006-8b6df886160f.gif" width="700" height="400">
 
-
+#
 ## User Enumeration
 **Show brute forcing actually works with Burp Suite**
 
@@ -45,7 +45,7 @@ account below here, too.
 
 <img src="https://user-images.githubusercontent.com/91004979/161450188-4a205537-d3c6-49f2-8ca1-9052d94e57ee.png" width="900" height="400">
 
-
+#
 ## CSRF Attack
 **Showing a simple CSRF attack if a user were to goto a link**
 1. using burp to see what were the parameters I need to use to post a comment.
@@ -61,10 +61,20 @@ bypass this pop up to make them indirectly click the continue option so I'd need
 
 <img src="https://user-images.githubusercontent.com/91004979/161455335-aabec88c-b3e4-49f5-8cd7-5a2087226f60.gif" width="900" height="400">
 
+#
+## Privilege Escalation
+**After commenting and if the Admin approves your comment once, your comment will stop being pending.**
 
+1. As you can see, this this comment is waiting for moderation
 
+<img src="https://user-images.githubusercontent.com/91004979/161878161-ea53aada-d16e-427c-a18f-14e795bd836b.png" width="900" height="300">
 
+2. Approving it on admin
 
+<img src="https://user-images.githubusercontent.com/91004979/161878519-3ca7d298-a468-417d-a2af-d00545cad37b.png" width="800" height="500">
 
+3. Now this user doesn't need to wait for moderation/approve anymore and has free reign in posting anything which will lead to being able 
+to post XSS attacks.
 
+<img src="https://user-images.githubusercontent.com/91004979/161879212-15adee63-34f1-4056-862a-fa7d6b33e62d.gif" width="900" height="400">
 
