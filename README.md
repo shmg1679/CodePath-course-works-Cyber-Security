@@ -16,7 +16,7 @@
 ## User Enumeration
 **Show brute forcing actually works with Burp Suite**
 
-1. Getting the POST request by entering something random
+1. Capturing the POST request by entering something random
 
 <img src="https://user-images.githubusercontent.com/91004979/160264668-5e97b267-f120-4bec-b03b-a3c22b25c33e.png" width="500" height="400">
 
