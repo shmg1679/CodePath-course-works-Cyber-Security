@@ -2,6 +2,25 @@
 
 **Unit 7 & 8 finding Vulnerabilities**: 
 
+## Privilege Escalation
+**After commenting and if the Admin approves your comment once, your comment will stop being pending.**
+
+1. As you can see, this this comment is waiting for moderation
+
+<img src="https://user-images.githubusercontent.com/91004979/161878161-ea53aada-d16e-427c-a18f-14e795bd836b.png" width="900" height="300">
+
+2. Approving it on admin
+
+<img src="https://user-images.githubusercontent.com/91004979/161878519-3ca7d298-a468-417d-a2af-d00545cad37b.png" width="800" height="500">
+
+3. Now this user doesn't need to wait for moderation/approve anymore and has free reign in posting anything which will lead to being able 
+to post XSS attacks. To be more specific, as long as this specific user has an existing comment that was approved once, they're able to
+continue commenting with free reign. If all their comments were deleted and have no existing comments, they're going to need to wait for
+moderation again.
+
+<img src="https://user-images.githubusercontent.com/91004979/161879212-15adee63-34f1-4056-862a-fa7d6b33e62d.gif" width="900" height="400">
+
+#
 ## XSS Attack
 **This XSS attack will just display the user's cookie**:
 1. Posting the script in the comment section. Although this isn't really malicious it still show that this vulnerability exist.
@@ -60,21 +79,4 @@ account below here, too.
 bypass this pop up to make them indirectly click the continue option so I'd need to rely on their gullibleness
 
 <img src="https://user-images.githubusercontent.com/91004979/161455335-aabec88c-b3e4-49f5-8cd7-5a2087226f60.gif" width="900" height="400">
-
-#
-## Privilege Escalation
-**After commenting and if the Admin approves your comment once, your comment will stop being pending.**
-
-1. As you can see, this this comment is waiting for moderation
-
-<img src="https://user-images.githubusercontent.com/91004979/161878161-ea53aada-d16e-427c-a18f-14e795bd836b.png" width="900" height="300">
-
-2. Approving it on admin
-
-<img src="https://user-images.githubusercontent.com/91004979/161878519-3ca7d298-a468-417d-a2af-d00545cad37b.png" width="800" height="500">
-
-3. Now this user doesn't need to wait for moderation/approve anymore and has free reign in posting anything which will lead to being able 
-to post XSS attacks.
-
-<img src="https://user-images.githubusercontent.com/91004979/161879212-15adee63-34f1-4056-862a-fa7d6b33e62d.gif" width="900" height="400">
 
