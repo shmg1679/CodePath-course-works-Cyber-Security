@@ -2,7 +2,12 @@
 
 **Unit 7 & 8 finding Vulnerabilities**: 
 
-## Privilege Escalation
+**ALL OF THESE EXPLOITS ARE FROM VERSION 4.2 AFTER USING VAGRANT UP.**
+
+**NOTE: I didn't look up specifically on which attack these were from the scan since I just tested out from what I know and see if it worked
+so the template would've had a lot of blanks since I didn't know how to fill in some of them.**
+
+## 1. Privilege Escalation
 **After commenting and if the Admin approves your comment once, your comment will stop being pending.**
 
 1. As you can see, this this comment is waiting for moderation
@@ -21,7 +26,7 @@ moderation again.
 <img src="https://user-images.githubusercontent.com/91004979/161879212-15adee63-34f1-4056-862a-fa7d6b33e62d.gif" width="900" height="400">
 
 #
-## XSS Attack
+## 2. XSS Attack
 **This XSS attack will just display the user's cookie**:
 1. Posting the script in the comment section. Although this isn't really malicious it still show that this vulnerability exist.
 
@@ -32,7 +37,7 @@ moderation again.
 <img src="https://user-images.githubusercontent.com/91004979/161449826-ff6a297a-62ff-4406-a006-8b6df886160f.gif" width="700" height="400">
 
 #
-## User Enumeration
+## 3. User Enumeration
 **Show brute forcing actually works with Burp Suite**
 
 1. Capturing the POST request by entering something random
@@ -65,7 +70,7 @@ account below here, too.
 <img src="https://user-images.githubusercontent.com/91004979/161450188-4a205537-d3c6-49f2-8ca1-9052d94e57ee.png" width="900" height="400">
 
 #
-## CSRF Attack
+## 4. CSRF Attack
 **Showing a simple CSRF attack if a user were to goto a link**
 1. using burp to see what were the parameters I need to use to post a comment.
 
@@ -80,3 +85,33 @@ bypass this pop up to make them indirectly click the continue option so I'd need
 
 <img src="https://user-images.githubusercontent.com/91004979/161455335-aabec88c-b3e4-49f5-8cd7-5a2087226f60.gif" width="900" height="400">
 
+## Assets
+
+List any additional assets, such as scripts or files
+
+## Resources
+
+- [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
+- [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+
+GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while doing the work
+
+## License
+
+    Copyright [2022] [shmg1679]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
