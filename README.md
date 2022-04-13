@@ -31,15 +31,17 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: XSS
 
-Description:
+Description: enter any random name and email with the XSS attack in the comment/feedback section will create the attack when staff
+or anyone else who's able to view the feedback section. The staff will get hit by each and every one of the attacks if they were to 
+click the ok option continuously.
 
-<img src="green-vuln1.gif">
+<img src="https://user-images.githubusercontent.com/91004979/163120045-9748bc7f-3dad-4eef-9fe5-36f7be09a2d6.gif">
 
 Vulnerability #2: __________________
 
-Description:
+Description: 
 
 <img src="green-vuln2.gif">
 
