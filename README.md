@@ -37,13 +37,13 @@ Description:
 
 ### Vulnerability #1: Cross-Site Scripting
 
-Description: enter any random name and email with the XSS attack in the comment/feedback section will create the attack when staff or anyone else who's able to view the feedback section. The staff will get hit by each and every one of the attacks if they were to click the ok option continuously.
+Description: enter any random name and email with the XSS attack in the comment/feedback section will create the attack. When staff or anyone else who's able to view the feedback section, the staff will get hit by each and every one of the attacks if they were to click the ok option continuously.
 
 <img src="https://user-images.githubusercontent.com/91004979/163120045-9748bc7f-3dad-4eef-9fe5-36f7be09a2d6.gif">
 
 ### Vulnerability #2: Username Enumeration
 
-Description: As I was testing out username enumeration I noticed that only on green the developer made it so that only users that exist would have the "Log in was unsuccessful" bold while when they don't exist, it becomes normal. Blue and red both has theirs bold no matter whether the user existed or not. Only green showed that if the user don't exist, it is not bold.
+Description: As I was testing out username enumeration I noticed that only on green the developer made it so that only users that exist would have the "Log in was unsuccessful" bold but when they don't exist, it becomes normal. Blue and red both has their's all bold no matter whether the user existed or not. Only green showed that if the user don't exist, it is not bold.
 
 <img src="https://user-images.githubusercontent.com/91004979/163270537-dc912cda-4b1c-4361-b990-62ec88357781.gif">
 
@@ -58,21 +58,21 @@ Description: when I logged in using pperson on blue, I notice that there were tw
 
 Here is where I noticed there were two people I did not see on the salesperson publicly.
 <img src="https://user-images.githubusercontent.com/91004979/163272386-96fa0bc4-62a0-45d7-8665-86cce6a03664.png">
-Here I found that their id was 10 and 11. (heres the 11 one)
+Here I found that their id was 10 and 11 in the URL. (heres the 11 one)
 <img src="https://user-images.githubusercontent.com/91004979/163272575-2a52d46a-2509-45ee-b3ea-07fb3502f67b.png">
 
 
 ### Vulnerability #2: CSRF(Cross-Site Request Forgery)
 
-Description: I've tried posting each CSRF on blue, green and red but only red seem to work. In this csrf attack, I made the staff who is logged into the pperson account forcibly without consent to create a new user named "random user" once they goto the link I hosted on my github.
+Description: I've tried posting each CSRF on blue, green and red but only red seem to work. In this csrf attack, I made the staff who is logged into the pperson account forcibly without consent to create a new user named "random user" once they goto the link I created and hosted on my github.
 
 Gif showing this in action.
 <img src="https://user-images.githubusercontent.com/91004979/163278828-a5e9b043-ae32-4f18-a97c-a14c96947d7c.gif">
 
-Here is where I get all the variables names and other information using burp to create the CSRF by creating a test account first.
+Here is where I get all the element names and other information using burp to create the CSRF attack but I created a test account first.
 <img src="https://user-images.githubusercontent.com/91004979/163279238-e2820fbb-f61e-4ad7-b8a4-5c70acb9e393.png">
 
-Here is my code, the highlighted part is where I change it to blue or green to tested on others but didn't work. So this only worked on red.
+Here is my code, the highlighted part is where I change it to blue or green to test on others but didn't work. So this only worked on red.
 <img src="https://user-images.githubusercontent.com/91004979/163279434-bbc7235d-f682-489c-8baf-4ef1c7e5da89.png">
 
 
