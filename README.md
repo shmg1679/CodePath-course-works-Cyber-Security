@@ -17,7 +17,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: SQLi
+### Vulnerability #1: SQLi
 
 Description: I notice that on each of the URL when viewing each salesperson theres an id= parameter which could be a potential SQLi exploit so I tried to test each URL id using ' to see if theres any response and found that blue responded with a database query failed which means SQLi attacks works on it whereas the other two just redirects you back to the other page where it listed all salesperson. So when I put ' OR SLEEP(5)=0--' in, it actually slept for the 5 seconds before loading the page.
 
@@ -27,7 +27,7 @@ Heres the part where it sleep for 5 seconds.
 <img src="https://user-images.githubusercontent.com/91004979/163131324-096eb690-bb98-4785-a782-74537a0f7ece.gif">
 
 
-Vulnerability #2: __________________
+### Vulnerability #2: __________________
 
 Description: Couldn't find it.
 
@@ -35,13 +35,13 @@ Description: Couldn't find it.
 
 ## Green
 
-Vulnerability #1: Cross-Site Scripting
+### Vulnerability #1: Cross-Site Scripting
 
 Description: enter any random name and email with the XSS attack in the comment/feedback section will create the attack when staff or anyone else who's able to view the feedback section. The staff will get hit by each and every one of the attacks if they were to click the ok option continuously.
 
 <img src="https://user-images.githubusercontent.com/91004979/163120045-9748bc7f-3dad-4eef-9fe5-36f7be09a2d6.gif">
 
-Vulnerability #2: Username Enumeration
+### Vulnerability #2: Username Enumeration
 
 Description: As I was testing out username enumeration I noticed that only on green the developer made it so that only users that exist would have the "Log in was unsuccessful" bold while when they don't exist, it becomes normal. Blue and red both has theirs bold no matter whether the user existed or not. Only green showed that if the user don't exist, it is not bold.
 
@@ -50,7 +50,7 @@ Description: As I was testing out username enumeration I noticed that only on gr
 
 ## Red
 
-Vulnerability #1: Insecure Direct Object Reference
+### Vulnerability #1: Insecure Direct Object Reference
 
 Description: when I logged in using pperson on blue, I notice that there were two sales person with id=10 and id=11 that was not public and was only able to access 1-9 publically when I wasn't logged in. So I tried to access them on red and green as well and found that red did not prevent this information from being leaked to the public.
 
@@ -62,7 +62,7 @@ Here I found that their id was 10 and 11. (heres the 11 one)
 <img src="https://user-images.githubusercontent.com/91004979/163272575-2a52d46a-2509-45ee-b3ea-07fb3502f67b.png">
 
 
-Vulnerability #2: CSRF(Cross-Site Request Forgery)
+### Vulnerability #2: CSRF(Cross-Site Request Forgery)
 
 Description: I've tried posting each CSRF on blue, green and red but only red seem to work. In this csrf attack, I made the staff who is logged into the pperson account forcibly without consent to create a new user named "random user" once they goto the link I hosted on my github.
 
