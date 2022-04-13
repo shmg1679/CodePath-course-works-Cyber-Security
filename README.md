@@ -29,7 +29,7 @@ Heres the part where it sleep for 5 seconds.
 
 ### Vulnerability #2: __________________
 
-Description: Couldn't find it.
+Description: 
 
 <img src="blue-vuln2.gif">
 
