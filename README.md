@@ -29,13 +29,13 @@ Heres the part where it sleep for 5 seconds.
 
 Vulnerability #2: __________________
 
-Description:
+Description: Couldn't find it.
 
 <img src="blue-vuln2.gif">
 
 ## Green
 
-Vulnerability #1: XSS
+Vulnerability #1: Cross-Site Scripting
 
 Description: enter any random name and email with the XSS attack in the comment/feedback section will create the attack when staff or anyone else who's able to view the feedback section. The staff will get hit by each and every one of the attacks if they were to click the ok option continuously.
 
@@ -62,11 +62,18 @@ Here I found that their id was 10 and 11. (heres the 11 one)
 <img src="https://user-images.githubusercontent.com/91004979/163272575-2a52d46a-2509-45ee-b3ea-07fb3502f67b.png">
 
 
-Vulnerability #2: __________________
+Vulnerability #2: CSRF(Cross-Site Request Forgery)
 
-Description:
+Description: I've tried posting each CSRF on blue, green and red but only red seem to work. In this csrf attack, I made the staff who is logged into the pperson account forcibly without consent to create a new user named "random user" once they goto the link I hosted on my github.
 
-<img src="red-vuln2.gif">
+Gif showing this in action.
+<img src="https://user-images.githubusercontent.com/91004979/163278828-a5e9b043-ae32-4f18-a97c-a14c96947d7c.gif">
+
+Here is where I get all the variables names and other information using burp to create the CSRF by creating a test account first.
+<img src="https://user-images.githubusercontent.com/91004979/163279238-e2820fbb-f61e-4ad7-b8a4-5c70acb9e393.png">
+
+Here is my code, the highlighted part is where I change it to blue or green to tested on others but didn't work. So this only worked on red.
+<img src="https://user-images.githubusercontent.com/91004979/163279434-bbc7235d-f682-489c-8baf-4ef1c7e5da89.png">
 
 
 ## Notes
