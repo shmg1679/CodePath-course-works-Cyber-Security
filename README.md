@@ -58,6 +58,7 @@ Description: when I logged in using pperson on blue, I notice that there were tw
 
 Here is where I noticed there were two people I did not see on the salesperson publicly.
 <img src="https://user-images.githubusercontent.com/91004979/163272386-96fa0bc4-62a0-45d7-8665-86cce6a03664.png">
+
 Here I found that their id was 10 and 11 in the URL. (heres the 11 one)
 <img src="https://user-images.githubusercontent.com/91004979/163272575-2a52d46a-2509-45ee-b3ea-07fb3502f67b.png">
 
