@@ -35,11 +35,24 @@ Description:
 
 ## Green
 
-### Vulnerability #1: Cross-Site Scripting
+### Vulnerability #1: Cross-Site Scripting (XSS)
 
 Description: enter any random name and email with the XSS attack in the comment/feedback section will create the attack. When staff or anyone else who's able to view the feedback section, the staff will get hit by each and every one of the attacks if they were to click the ok option continuously.
 
 <img src="https://user-images.githubusercontent.com/91004979/163120045-9748bc7f-3dad-4eef-9fe5-36f7be09a2d6.gif">
+
+#### BONUS XSS redirecting to another site
+
+The code and gif to of it redirecting to facebook
+
+<img src="https://user-images.githubusercontent.com/91004979/163310238-7d40ce88-35c6-43ce-904e-085476474399.png">
+
+<img src="https://user-images.githubusercontent.com/91004979/163310333-ce1b8c44-a24a-45f2-ade4-1be28179a22f.gif">
+
+This wouldve shown the cookie of the user but due to the previous ones that redirect url, it wouldn't be able to show the cookie.
+
+<img src="https://user-images.githubusercontent.com/91004979/163310847-ac44e5dc-fb67-4676-a5a2-8a6bc226fffe.png">
+
 
 ### Vulnerability #2: Username Enumeration
 
