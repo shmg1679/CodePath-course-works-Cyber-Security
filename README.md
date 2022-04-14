@@ -70,9 +70,11 @@ Description: when I logged in using pperson on blue, I notice that there were tw
 <img src="https://user-images.githubusercontent.com/91004979/163272273-13e53db1-ebfb-4457-9282-848ba3763f1a.gif">
 
 Here is where I noticed there were two people I did not see on the salesperson publicly.
+
 <img src="https://user-images.githubusercontent.com/91004979/163272386-96fa0bc4-62a0-45d7-8665-86cce6a03664.png">
 
 Here I found that their id was 10 and 11 in the URL. (heres the 11 one)
+
 <img src="https://user-images.githubusercontent.com/91004979/163272575-2a52d46a-2509-45ee-b3ea-07fb3502f67b.png">
 
 
@@ -84,9 +86,11 @@ Gif showing this in action.
 <img src="https://user-images.githubusercontent.com/91004979/163278828-a5e9b043-ae32-4f18-a97c-a14c96947d7c.gif">
 
 Here is where I get all the element names and other information using burp to create the CSRF attack but I created a test account first.
+
 <img src="https://user-images.githubusercontent.com/91004979/163279238-e2820fbb-f61e-4ad7-b8a4-5c70acb9e393.png">
 
 Here is my code, the highlighted part is where I change it to blue or green to test on others but didn't work. So this only worked on red.
+
 <img src="https://user-images.githubusercontent.com/91004979/163279434-bbc7235d-f682-489c-8baf-4ef1c7e5da89.png">
 
 
